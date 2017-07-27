@@ -1,0 +1,27 @@
+* {
+	font-family: "ministry", sans-serif;
+}
+
+p {
+	font-family: "ministry";
+	font-weight: 100;
+	font-variant: light;
+}
+
+header {
+	text-align: center;
+}
+
+.family-banner {
+	background-position: cover;
+	padding: 10%;
+}
+
+.logos {
+	display: inline-block;
+	width: 20%;
+	margin: 0 auto;
+}
+.left-line {
+	border-right: 5px solid black;
+}
