@@ -8,20 +8,56 @@ p {
 	font-variant: light;
 }
 
-header {
+header, footer {
 	text-align: center;
+	margin: 5% 19%;
+}
+
+h1, h2 {
+	font-size: 60px;
+}
+
+
+aside {
+	width: 40%;
 }
 
 .family-banner {
+	background-color: grey;
 	background-position: cover;
-	padding: 10%;
+	padding: 2rem 5rem
+	margin-bottom: 5px;
+}
+
+.intro {
+	padding: 1em;
+	padding-left: 0;
+}
+
+.btn {
+    background-color: rgb(69, 75, 72);
+    padding: .5em;
+    color: white;
+    text-decoration: none;
 }
 
 .logos {
 	display: inline-block;
-	width: 20%;
+	width: 40%;
+	text-align: center;
 	margin: 0 auto;
 }
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+}
+
 .left-line {
 	border-right: 5px solid black;
+}
+
+i {
+	font-weight: 100;
+	font-variant: light;
 }
