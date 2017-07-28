@@ -84,3 +84,11 @@ i {
 	background-image: url(assets/sciortino-family.jpg);
 	background-size: cover;
 }
+
+strong {
+	font-size: 20px;
+}
+
+main {
+	margin: 5% 20% 15%;
+}
