@@ -20,12 +20,12 @@ h1, h2 {
 
 aside {
 	width: 40%;
+	padding: 2rem;
 }
 
 .family-banner {
 	background-color: grey;
 	background-position: cover;
-	padding: 2rem 5rem
 	margin-bottom: 5px;
 }
 
