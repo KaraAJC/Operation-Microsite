@@ -20,12 +20,12 @@ h1, h2 {
 
 aside {
 	width: 40%;
-	padding: 2rem;
+	padding: 1rem 2rem 3rem 3rem;
+	color: white;
+
 }
 
 .family-banner {
-	background-color: grey;
-	background-position: cover;
 	margin-bottom: 5px;
 }
 
@@ -60,4 +60,19 @@ aside {
 i {
 	font-weight: 100;
 	font-variant: light;
+}
+
+#strojny {
+	background-image: url(assets/strojny-family.jpg);
+	background-size: cover;
+}
+
+#grover {
+	background-image: url(assets/grover-family.jpg);
+	background-size: cover;
+}
+
+#sciortino {
+	background-image: url(assets/sciortino-family.jpg);
+	background-size: cover;
 }
