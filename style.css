@@ -14,12 +14,12 @@ header, footer {
 }
 
 h1, h2 {
-	font-size: 60px;
+	font-size: 5vw;
 }
 
 
 aside {
-	width: 40%;
+	width: 35%;
 	padding: 1rem 2rem 3rem 3rem;
 	color: white;
 	text-shadow: -1px 1px 0px #000;
