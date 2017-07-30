@@ -101,14 +101,14 @@ strong {
 }
 
 main {
-	margin: 0 20% 15%;
+	margin: 0 20% 10%;
 }
 
 .family-header {
 	margin: 0 auto;
 	text-align: left;
 	padding-left: 50px;
-	min-height: 300px;
+	min-height: 400px;
 
 }
 
@@ -128,7 +128,8 @@ nav a {
 	font-weight: bold;
 	padding-left: 20px;
 }
-@media (max-width: 600px) and (min-width: 350px) {
+
+@media (max-width: 600px) {
 	.logos {
 		width: 50%;
 		display: block;
@@ -141,5 +142,10 @@ nav a {
 
 	aside {
 		width: 80%;
+	}
+
+	.family-header {
+    padding-top: 0;
+    padding-left: 0;
 	}
 }
