@@ -1,5 +1,5 @@
 * {
-	font-family: "ministry", sans-serif;
+	font-family: "ministry", "sans-serif";
 }
 
 p {
@@ -50,19 +50,33 @@ aside {
 }
 
 .logos {
-	display: inline-block;
-	width: 40%;
-	text-align: center;
-	margin: 0 auto;
+	width: 25%;
+}
+
+.logos:nth-of-type(2) {
+    align-items: center;
+    display: flex;
+    padding-left: 5%;
+}
+
+.logos:nth-child(2) img {
+    max-width: 130px;
 }
 
 .container {
-	width: 50%;
-	margin: 0 auto;
+	display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
+.container img {
+	max-width: 100px;
+}
+
+
 .left-line {
-	border-right: 5px solid black;
+	border-right: 1px solid black;
+	align-content: right;
 }
 
 i {
@@ -90,5 +104,45 @@ strong {
 }
 
 main {
-	margin: 5% 20% 15%;
+	margin: 0 20% 15%;
+}
+
+.family-header {
+	margin: 0 auto;
+	text-align: left;
+	padding-left: 50px;
+	min-height: 300px;
+
+}
+
+.family-header h2 {
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-top: 0;
+  color: white;
+  font-size: 50px;
+  width: 30%;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 5px;
+	color: black;
+	font-weight: bold;
+	padding-left: 20px;
+}
+@media (max-width: 600px) and (min-width: 350px) {
+	.logos {
+		width: 50%;
+		display: block;
+
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	aside {
+		width: 80%;
+	}
 }
