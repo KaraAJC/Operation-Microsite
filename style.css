@@ -3,7 +3,6 @@
 }
 
 p {
-	font-family: "ministry";
 	font-weight: 100;
 	font-variant: light;
 }
@@ -17,13 +16,11 @@ h1, h2 {
 	font-size: 5vw;
 }
 
-
 aside {
 	width: 35%;
 	padding: 1rem 2rem 3rem 3rem;
 	color: white;
 	text-shadow: -1px 1px 0px #000;
-
 }
 
 .family-banner {
@@ -85,17 +82,17 @@ i {
 }
 
 #strojny {
-	background-image: url(assets/strojny-family.jpg);
+	background-image: url(assets/strojny-family-web.jpg);
 	background-size: cover;
 }
 
 #grover {
-	background-image: url(assets/grover-family.jpg);
+	background-image: url(assets/grover-family-web.jpg);
 	background-size: cover;
 }
 
 #sciortino {
-	background-image: url(assets/sciortino-family.jpg);
+	background-image: url(assets/sciortino-family-web.jpg);
 	background-size: cover;
 }
 
