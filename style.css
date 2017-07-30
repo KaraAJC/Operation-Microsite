@@ -129,11 +129,11 @@ nav a {
 	padding-left: 20px;
 }
 
+
 @media (max-width: 600px) {
 	.logos {
 		width: 50%;
 		display: block;
-
 	}
 
 	h2 {
