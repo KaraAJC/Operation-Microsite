@@ -157,8 +157,9 @@ nav a {
     color: black;
     position: absolute;
     left: 20%;
-    top: 415px;
+    top: 425px;
     color: black;
+    font-size: 2.75rem;
   }
 
   article {
@@ -170,7 +171,7 @@ nav a {
 	}
 
   #sciortino.family-header {
-	  background-position-x: -375px;
+	  background-position-x: -415px;
 	}
 
   #strojny.family-header {
@@ -180,11 +181,11 @@ nav a {
 
 @media (min-width: 500px) and (max-width: 800px) {
   #grover.family-header {
-    background-position-x: -375px;
+    background-position-x: -185px;
   }
 
   #sciortino.family-header {
-    background-position-x: -375px;
+    background-position-x: -240px;
   }
 
   #strojny.family-header {
@@ -194,11 +195,11 @@ nav a {
 
 @media (min-width: 800px) and (max-width: 1000px) {
   #grover.family-header {
-    background-position-x: -140px;
+    background-position-x: -75px;
   }
 
   #sciortino.family-header {
-    background-position-x: -375px;
+    background-position-x: -100px;
   }
 
   #strojny.family-header {
