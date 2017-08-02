@@ -1,3 +1,5 @@
+/* Main Styling */
+
 * {
 	font-family: "ministry", "sans-serif";
 }
@@ -129,6 +131,7 @@ nav a {
 	padding-left: 20px;
 }
 
+/* Media Queries */
 
 @media (max-width: 600px) {
 	.logos {
@@ -149,23 +152,56 @@ nav a {
     padding-left: 0;
 	}
 
-	/* #grover.family-header {
-		background-position-x: -375px;
-		}*/
-	/* #sciortino.family-header {
-		background-position-x: -375px;
-		}*/
-	/* #strojny.family-header {
-		background-position-x: -375px;
-		}*/
+  .family-header h2 {
+    padding-left: 0;
+    color: black;
+    position: absolute;
+    left: 20%;
+    top: 415px;
+    color: black;
+  }
 
-	/* #grover.family-banner {
-		background-position-x: -375px;
-		}*/
-	/* #sciortino.family-banner {
-		background-position-x: -375px;
-		}*/
-	/* #strojny.family-banner {
-		background-position-x: -375px;
-		}*/
+  article {
+    margin-top: 250px;
+  }
+
+  #grover.family-header {
+	  background-position-x: -375px;
+	}
+
+  #sciortino.family-header {
+	  background-position-x: -375px;
+	}
+
+  #strojny.family-header {
+	  background-position-x: -575px;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+  #grover.family-header {
+    background-position-x: -375px;
+  }
+
+  #sciortino.family-header {
+    background-position-x: -375px;
+  }
+
+  #strojny.family-header {
+    background-position-x: -400px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  #grover.family-header {
+    background-position-x: -140px;
+  }
+
+  #sciortino.family-header {
+    background-position-x: -375px;
+  }
+
+  #strojny.family-header {
+    background-position-x: -140px;
+  }
 }
